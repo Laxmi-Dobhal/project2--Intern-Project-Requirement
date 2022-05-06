@@ -70,6 +70,7 @@ let  getcolleges=  async function(req,res){
     const finaldata= {
      name: collegematch[0].name,
      fullName: collegematch[0].fullName,
+    logoLink: collegematch[0].logoLink,
      interests: Interested}
     collegematch.push(Interested)
   
@@ -82,6 +83,7 @@ let  getcolleges=  async function(req,res){
     const finaldata= {
      name: collegematch[0].name,
      fullName: collegematch[0].fullName,
+      logoLink: collegematch[0].logoLink,
      interests: " no student has applied for internship"}
   //  collegematch.push(Interested)
   
